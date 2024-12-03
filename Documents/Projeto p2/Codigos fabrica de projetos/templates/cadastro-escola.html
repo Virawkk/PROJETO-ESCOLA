@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Escola</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/cadastro-escola.css') }}">
+</head>
+<body>
+  <div class="form-container">
+    <h1>Cadastro de Escola</h1>
+    <form action="/salvar-escola" method="POST">
+      <input type="text" name="nome_escola" placeholder="Nome da Escola" required>
+      <input type="text" name="nome_diretor" placeholder="Nome do Diretor(a)" required>
+      <input type="text" name="nome_coordenador" placeholder="Nome do Coordenador(a)" required>
+      <input type="text" name="endereco" placeholder="Endereço da Escola" required>
+      <input type="password" name="senha" placeholder="Senha" required>
+      <button type="submit">Cadastrar Escola</button>
+    </form>
+  </div>
+</body>
+</html>

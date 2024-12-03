@@ -1,0 +1,80 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo geral */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* Fundo branco */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333; /* Texto padrão */
+  }
+  
+  /* Container do formulário */
+  .form-container {
+    background: #f8f9fc; /* Fundo ligeiramente cinza */
+    padding: 30px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  /* Títulos */
+  h1 {
+    color: #003366; /* Azul escuro */
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  /* Campos de entrada */
+  input {
+    width: calc(100% - 20px); /* Preenche o container */
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd; /* Borda leve */
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333; /* Texto escuro */
+  }
+  
+  /* Botão de envio */
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #003366; /* Azul escuro */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #002244; /* Azul mais escuro */
+  }
+  
+  /* Responsividade */
+  @media (max-width: 600px) {
+    .form-container {
+      padding: 20px 15px;
+    }
+  
+    h1 {
+      font-size: 20px;
+    }
+  
+    input {
+      font-size: 14px;
+    }
+  
+   
+  

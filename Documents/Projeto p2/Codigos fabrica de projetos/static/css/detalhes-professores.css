@@ -1,0 +1,79 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo geral */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 20px;
+    color: #333;
+  }
+  
+  /* Container principal */
+  .container {
+    background: #ffffff;
+    padding: 30px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Estilo do professor */
+  .professor {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .foto {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  /* Estilo dos conteúdos */
+  .conteudos {
+    margin-top: 20px;
+  }
+  
+  .conteudo {
+    margin-bottom: 10px;
+  }
+  
+  h1 {
+    color: #003366; /* Azul escuro */
+    margin-bottom: 10px;
+    font-size: 28px;
+  }
+  
+  h2 {
+    color: #003366;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    color: #0056b3; /* Azul mais claro */
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    font-size: 16px;
+    margin-left: 5px;
+    color: #333;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  

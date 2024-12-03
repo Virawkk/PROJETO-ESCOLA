@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detalhes do Aluno</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/alunos-cadastrados.css') }}">
+</head>
+<body>
+  <a href="index-turmas.html" class="voltar-link">&larr; Voltar para Turmas</a>
+
+  <div class="container">
+    <div class="aluno">
+      <img src="foto-aluno.jpg" alt="Foto do Aluno" class="foto">
+      <div>
+        <h1>João da Silva</h1>
+        <p>Turma: 9º A</p>
+        <p>RA: 123456</p>
+      </div>
+    </div>
+
+    <div class="notas">
+      <h2>Notas:</h2>
+      <ul>
+        <li>Matemática: 8.0</li>
+        <li>Português: 7.5</li>
+        <li>Ciências: 9.0</li>
+        <li>História: 8.5</li>
+        <li>Geografia: 8.0</li>
+      </ul>
+      <p><strong>Média: 8.2</strong></p>
+    </div>
+  </div>
+</body>
+</html>
+

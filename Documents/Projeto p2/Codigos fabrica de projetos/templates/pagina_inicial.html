@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Inicial - Sistema de Escolas</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/pagina_inicial.css') }}">
+</head>                        
+<body>
+  <div class="container">
+    <h1>Bem-vindo ao Sistema de Escolas</h1>
+    <p>Escolha uma opção abaixo para continuar:</p>
+    <a href="/cadastro-escola" class="btn">Cadastrar Escola</a>
+    <a href="/login_escola" class="btn">Acessar Login</a>
+  </div>
+</body>
+</html>

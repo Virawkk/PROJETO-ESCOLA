@@ -1,0 +1,105 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo geral */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* Fundo branco */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333; /* Texto padrão */
+  }
+  
+  /* Container principal */
+  .container {
+    background: #f4f4f9; /* Fundo cinza suave */
+    padding: 30px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border-radius: 10px;
+    width: 100%;
+    max-width: 800px; /* Largura máxima */
+    text-align: center;
+  }
+  
+  /* Títulos */
+  h1 {
+    color: #003366; /* Azul escuro */
+    margin-bottom: 30px;
+    font-size: 28px;
+  }
+  
+  /* Containers dos formulários */
+  .form-container {
+    background: #ffffff; /* Fundo branco para os formulários */
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Subtítulo de cada seção */
+  h2 {
+    color: #003366; /* Azul escuro */
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+  
+  /* Estilo dos campos de entrada e seleção */
+  form input,
+  form select {
+    width: calc(100% - 20px); /* Preenche a largura disponível */
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd; /* Borda leve */
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  /* Botão */
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #003366; /* Azul escuro */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Efeito de hover no botão */
+  button:hover {
+    background-color: #002244; /* Azul mais escuro */
+  }
+  
+  /* Responsividade */
+  @media (max-width: 600px) {
+    .container {
+      padding: 20px 15px;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  
+    h2 {
+      font-size: 18px;
+    }
+  
+    input,
+    select {
+      font-size: 14px;
+    }
+  
+    button {
+      font-size: 14px;
+    }
+  }
+  

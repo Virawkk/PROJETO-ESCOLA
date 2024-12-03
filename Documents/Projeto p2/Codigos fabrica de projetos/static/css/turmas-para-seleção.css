@@ -1,0 +1,55 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo geral */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 20px;
+    color: #333;
+  }
+  
+  /* Título principal */
+  h1 {
+    color: #003366; /* Azul escuro */
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo das turmas */
+  .turma {
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #0056b3; /* Azul mais claro */
+    margin-bottom: 10px;
+  }
+  
+  /* Lista de alunos */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  /* Estilo dos links */
+  a {
+    text-decoration: none;
+    color: #007bff; /* Azul */
+    font-weight: bold;
+  }
+  
+  a:hover {
+    color: #0056b3; /* Azul mais escuro no hover */
+  }
+  

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Cadastro</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/area-cadastro.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>Área de Cadastro</h1>
+
+    <!-- Formulário de Cadastro de Alunos -->
+    <div class="form-container">
+      <h2>Cadastrar Aluno</h2>
+      <form action="/cadastrar-aluno" method="POST">
+        <input type="text" name="nome_aluno" placeholder="Nome Completo" required>
+        <select name="turma" required>
+          <option value="" disabled selected>Selecione a Turma</option>
+          <option value="6ano">6º Ano</option>
+          <option value="7ano">7º Ano</option>
+          <option value="8ano">8º Ano</option>
+          <option value="9ano">9º Ano</option>
+          <option value="1colegial">1º Ano do Ensino Médio</option>
+          <option value="2colegial">2º Ano do Ensino Médio</option>
+          <option value="3colegial">3º Ano do Ensino Médio</option>
+        </select>
+        <input type="text" name="ra" placeholder="RA (Registro do Aluno)" required>
+        <button type="submit">Cadastrar Aluno</button>
+      </form>
+    </div>
+
+    <!-- Formulário de Cadastro de Professores -->
+    <div class="form-container">
+      <h2>Cadastrar Professor</h2>
+      <form action="/cadastrar-professor" method="POST">
+        <input type="text" name="nome_professor" placeholder="Nome Completo" required>
+        <select name="materia" required>
+          <option value="" disabled selected>Selecione a Matéria</option>
+          <option value="portugues">Português</option>
+          <option value="matematica">Matemática</option>
+          <option value="historia">História</option>
+          <option value="geografia">Geografia</option>
+          <option value="ciencias">Ciências</option>
+          <option value="biologia">Biologia</option>
+          <option value="fisica">Física</option>
+          <option value="quimica">Química</option>
+          <option value="ingles">Inglês</option>
+          <option value="edfisica">Educação Física</option>
+          <option value="artes">Artes</option>
+          <option value="filosofia">Filosofia</option>
+          <option value="sociologia">Sociologia</option>
+        </select>
+        <button type="submit">Cadastrar Professor</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

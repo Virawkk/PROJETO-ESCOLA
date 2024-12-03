@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resultado da Entrada de Notas</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .container {
+      background: #ffffff;
+      padding: 30px 20px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      width: 100%;
+      max-width: 600px;
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    .resultado-container {
+      text-align: center;
+    }
+    .resultado-container h2 {
+      color: #555;
+    }
+    .resultado-container p {
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Resultado da Entrada de Notas</h1>
+
+    <div class="resultado-container">
+      <h2>Notas do Aluno</h2>
+      <p><strong>Aluno:</strong> {{ aluno }}</p>
+      <p><strong>Matéria:</strong> {{ materia }}</p>
+      <p><strong>Nota 1:</strong> {{ nota1 }}</p>
+      <p><strong>Nota 2:</strong> {{ nota2 }}</p>
+      <p><strong>Média:</strong> {{ media }}</p>
+    </div>
+  </div>
+</body>
+</html>

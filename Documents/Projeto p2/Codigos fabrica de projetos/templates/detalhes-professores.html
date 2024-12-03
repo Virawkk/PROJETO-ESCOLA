@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detalhes do Professor</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/detalhes-professores.css') }}">
+</head>
+<body>
+  <div class="container">
+    <div class="professor">
+      <img src="foto-professor.jpg" alt="Foto do Professor" class="foto">
+      <div>
+        <h1>Maria Oliveira</h1>
+        <p>Matéria: Matemática</p>
+        <p>Turmas: 7º A, 8º B</p>
+      </div>
+    </div>
+
+    <div class="conteudos">
+      <h2>Conteúdos:</h2>
+      <h3>7º A</h3>
+      <div class="conteudo">
+        <input type="checkbox" id="conteudo1">
+        <label for="conteudo1">Operações básicas</label>
+      </div>
+      <div class="conteudo">
+        <input type="checkbox" id="conteudo2">
+        <label for="conteudo2">Frações e decimais</label>
+      </div>
+      <h3>8º B</h3>
+      <div class="conteudo">
+        <input type="checkbox" id="conteudo3">
+        <label for="conteudo3">Equações de 1º grau</label>
+      </div>
+      <div class="conteudo">
+        <input type="checkbox" id="conteudo4">
+        <label for="conteudo4">Geometria plana</label>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+

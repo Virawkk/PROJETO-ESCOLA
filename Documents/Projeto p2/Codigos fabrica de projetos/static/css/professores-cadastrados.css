@@ -1,0 +1,53 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo geral */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 20px;
+    color: #333;
+  }
+  
+  /* Container principal */
+  .container {
+    background: #ffffff;
+    padding: 30px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  /* Título principal */
+  h1 {
+    color: #003366; /* Azul escuro */
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+  
+  /* Estilo dos links de professores */
+  .professor {
+    margin-bottom: 15px;
+  }
+  
+  .professor a {
+    text-decoration: none;
+    color: #007bff; /* Azul claro */
+    font-size: 18px;
+    font-weight: 600;
+    transition: color 0.3s ease;
+  }
+  
+  /* Efeito de hover nos links */
+  .professor a:hover {
+    color: #0056b3; /* Azul mais escuro */
+  }
+  
+  
